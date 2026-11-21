@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Little whale",
+    "description": "A little blue whale that floats above the page with eight looks — colours, a bow, a sailor hat, glasses, a crown and more. Drag it anywhere (the position is remembered) and resize it. Click it and it changes its look with a sparkle and speaks in a bubble with a large pool of lines that avoid recent repeats, saying how much of today's budget is left or how far over, with a soft sound and a bright system voice; after a configurable idle time (5 minutes by default) it falls asleep with floating Zzz, and any click wakes it. The bubble's Open ledger button reveals this chat's estimated spend, today's total, token counts, editable prices and budget; the whale can be renamed, and sound or voice can be switched off in the panel. The estimate comes from token usage and your prices, and everything stays in this browser.",
+    "detail": "docs/DETAIL.md"
+  }
+}

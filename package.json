@@ -1,0 +1,54 @@
+{
+  "name": "dsh-plugin-little-whale",
+  "version": "1.6.4",
+  "type": "module",
+  "description": "A draggable, resizable talking whale for DeepSeek Harness: eight looks, today's remaining budget, an estimated-spend ledger, rename, nap timer, cute sounds and optional voice.",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "assets",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-layout"
+      ]
+    }
+  },
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "whale",
+    "pet",
+    "ledger"
+  ],
+  "author": "renqianyu2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renqianyu2/dsh-plugin-little-whale.git"
+  },
+  "homepage": "https://github.com/renqianyu2/dsh-plugin-little-whale",
+  "bugs": {
+    "url": "https://github.com/renqianyu2/dsh-plugin-little-whale/issues"
+  }
+}
